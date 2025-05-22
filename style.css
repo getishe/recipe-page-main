@@ -99,10 +99,11 @@ img {
 .pre {
   background-color: hsl(330, 100%, 98%);
   /* color: white; */
-  border: 2px solid hsl(30, 10%, 34%);
-  padding: 1rem;
-  border-radius: 1rem;
+  /* border: 2px solid hsl(30, 10%, 34%); */
+  padding: 2rem;
+  border-radius: 0.9rem;
   font-size: 1rem;
+  margin-bottom: 2rem;
   /* margin-left: 2rem; */
 }
 
@@ -119,4 +120,24 @@ img {
 .pre ul {
   margin-left: 2.3rem;
   line-height: 2rem;
+}
+
+.ingre {
+  border: 2px solid hsl(30, 10%, 34%);
+}
+.ingre h2 {
+  color: hsl(14, 45%, 36%);
+  margin: 1rem 0 1rem 0;
+  font-family: "Young Serif", serif;
+  font-weight: 200;
+}
+
+.ingre ul {
+  margin-left: 0;
+  line-height: 2rem;
+  padding-left: 23rem;
+  list-style-position: outside;
+}
+.ingre ul li::marker {
+  font-size: 1em;
 }
