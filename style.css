@@ -135,7 +135,7 @@ img {
 .ingre ul {
   margin-left: 0;
   line-height: 2rem;
-  padding-left: 23rem;
+  padding-left: 2rem;
   list-style-position: outside;
 }
 .ingre ul li::marker {
