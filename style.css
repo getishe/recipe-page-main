@@ -114,20 +114,32 @@ img {
   font-family: "Outfit", sans-serif;
   font-weight: 700; /* Using SemiBold weight */
   font-size: 20px;
-  margin-left: 0.9rem;
+  /* margin-left: 0.4rem; */
+  /* border: 2px solid hsl(30, 10%, 34%); */
   /* font-size: 1.5rem;
   margin-bottom: 1rem; */
 }
 
 .pre ul {
-  margin-left: 2.3rem;
+  /* border: 2px solid hsl(30, 10%, 34%); */
+  margin-left: 0.5rem;
   line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* padding-left: 0.8rem; */
+  list-style-position: outside;
 }
-
+.pre ul li {
+  position: relative;
+  padding-left: 1.3rem;
+  border: ;
+}
 .pre ul li::marker {
   /* font-size: 1.5em; */
   color: hsl(332, 51%, 32%);
-  margin-left: 0.75em;
+  /* margin-left: 0.75em; */
+  content: "•"; /* Explicit bullet point */
+  font-size: 1.2em; /* Slightly larger marker */
 }
 .ingre {
   border: 2px solid hsl(30, 10%, 34%);
