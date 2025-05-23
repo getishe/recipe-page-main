@@ -246,3 +246,41 @@ table tr td:nth-child(2) {
   font-weight: 700;
   color: hsl(14, 45%, 36%);
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+  .recipe {
+    padding: 1rem;
+  }
+  .omlet h1 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .omlet p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+  }
+  .recipe {
+    padding: 0.5rem;
+  }
+  .omlet h1 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .omlet p {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
+}
