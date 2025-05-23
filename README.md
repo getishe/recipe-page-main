@@ -26,11 +26,11 @@ This is a solution to the Recipe page challenge on Frontend Mentor. The challeng
 
 #### Desktop
 
-![](./screenshot.jpg)
+![](./design/desktop-design.jpg)
 
 #### Mobile
 
-![](./screenshot-mobile.jpg)
+![](./design/mobile-design.jpg)
 
 ### Links
 
