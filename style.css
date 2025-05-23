@@ -213,3 +213,36 @@ hr {
   /* content: "•"; Explicit bullet point */
   font-size: 1em; /* Slightly larger marker */
 }
+
+#nutrition {
+  color: hsl(14, 45%, 36%);
+  margin: 1rem 0 1rem 0;
+  font-family: "Young Serif", serif;
+  font-weight: 200;
+}
+
+.nutri {
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+table {
+  /* border: 2px solid hsl(30, 10%, 34%); */
+
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+table tr td {
+  padding: 0.6em 2em;
+}
+table tr:not(:last-child) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table tr td:nth-child(2) {
+  width: 50%;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
