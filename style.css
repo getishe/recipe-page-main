@@ -49,7 +49,7 @@ p {
 }
 
 section {
-  border: 2px solid hsl(30, 10%, 34%);
+  /* border: 2px solid hsl(30, 10%, 34%); */
   background-color: hsl(30, 54%, 90%);
   border-radius: 1rem;
   min-height: 100vh;
@@ -81,7 +81,7 @@ img {
 }
 
 .omlet {
-  border: 2px solid hsl(30, 10%, 34%);
+  /* border: 2px solid hsl(30, 10%, 34%); */
   /* padding: 2rem; */
   margin-bottom: 1rem;
 }
@@ -144,7 +144,7 @@ img {
   font-size: 1.2em; /* Slightly larger marker */
 }
 .ingre {
-  border: 2px solid hsl(30, 10%, 34%);
+  /* border: 2px solid hsl(30, 10%, 34%); */
   margin: 2rem 0 2rem 0;
 }
 .ingre h2 {
