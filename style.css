@@ -132,7 +132,6 @@ img {
 .pre ul li {
   position: relative;
   padding-left: 1.3rem;
-  border: ;
 }
 .pre ul li::marker {
   /* font-size: 1.5em; */
@@ -169,4 +168,43 @@ img {
   color: hsl(332, 51%, 32%);
   content: "•"; /* Explicit bullet point */
   font-size: 1.2em; /* Slightly larger marker */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruct {
+  /* border: 2px solid hsl(30, 10%, 34%); */
+  margin: 2rem 0 2rem 0;
+}
+
+.instruct h2 {
+  color: hsl(14, 45%, 36%);
+  margin: 1rem 0 1rem 0;
+  font-family: "Young Serif", serif;
+  font-weight: 200;
+}
+
+.instruct ol {
+  /* border: 2px solid hsl(30, 10%, 34%); */
+  margin-left: 0.3rem;
+  /* line-height: 2rem; */
+  padding-left: 0.8rem;
+  list-style-position: outside;
+}
+
+.instruct ol li {
+  /* border: 2px solid hsl(30, 10%, 34%); */
+  padding-left: 0.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.instruct ol li::marker {
+  /* font-size: 6em; */
+  color: hsl(332, 51%, 32%);
+  /* content: "•"; Explicit bullet point */
+  font-size: 0.8em; /* Slightly larger marker */
 }
